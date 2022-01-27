@@ -1,0 +1,105 @@
+body{
+    background: #1a1a26;
+
+}
+header{
+    border-bottom: 1px solid rgb(58, 56, 56);
+}
+
+.lista ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.lista ul li{
+    margin-right: 5px;
+    padding: 10px;
+   
+}
+.lista ul li a{
+    text-decoration: none;
+    color: white;
+}
+.lista ul li a:hover{
+    color: #2ea662;
+}
+
+.container .lista{
+    border-bottom: 1px solid white;
+}
+section{
+    color: white;
+    padding:20px 10px 20px 10px ;
+    display: flex;
+    justify-content: space-around;
+
+}
+section div img{
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+section div h1{
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 400px;
+
+   
+}
+section div p{
+    font-size: 40px;
+    margin-left: 400px;
+    
+}
+mark{
+    background-color:#2ea662;
+    color: white;
+}
+.part2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.dados{
+    background: rgb(34, 34, 51);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+.foto2 span{
+    color: #2ea662;
+}
+.foto2 img{
+    border-radius: 50%;
+    border-bottom: 20%;
+    border-bottom: 20%;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
+
+.skills{
+    text-align: right;
+    padding:20px 10px 20px 10px ;
+    justify-content: space-around;
+    margin-right: 300px;
+}
+.skills progress{
+    background-color: #2ea662;
+    width: 400px;
+    
+}
+.skills p{
+    font-size: 30px;
+    text-align: left;
+    margin-right: 200px;
+    
+}
+.skills h1{
+    text-align: center;
+}

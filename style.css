@@ -2,108 +2,80 @@ body{
     background: #1a1a26;
 
 }
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 header{
     border-bottom: 1px solid rgb(58, 56, 56);
 }
-
 .lista ul{
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
+	list-style:none;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
 }
 .lista ul li{
-    margin-right: 5px;
-    padding: 10px;
-   
+	margin-right: 5px;
+	padding: 10px;
 }
 .lista ul li a{
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 .lista ul li a:hover{
-    color: #2ea662;
+	color: #2ea662;
+}
+.home{
+	color: white;
+	padding: 20px 10px 20px 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.home img{
+	width: 500px;
+	height: 500px ;
+}
+.home h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 200px;
+}
+.home p{
+	text-align: center;
+	font-size: 30px;
+}
+.home p mark{
+	background-color: #2ea662;
+	color: white;
 }
 
-.container .lista{
-    border-bottom: 1px solid white;
-}
-section{
-    color: white;
-    padding:20px 10px 20px 10px ;
-    display: flex;
-    justify-content: space-around;
+/* SEGUNDA PARTE*/
 
-}
-section div img{
-    width: 500px;
-    height: 500px;
-    margin-top: 30px;
-    margin-right: 200px;
-}
-section div h1{
-    font-size: 60px;
-    margin-top: 200px;
-    margin-left: 400px;
-
-   
-}
-section div p{
-    font-size: 40px;
-    margin-left: 400px;
-    
-}
-mark{
-    background-color:#2ea662;
-    color: white;
-}
 .part2{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-
+	color:white;
+	text-align: center;
+}
+.part2 h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 .dados{
-    background: rgb(34, 34, 51);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    
+	background-color:rgb(26, 29, 48);
+	margin: 50px;
+	display: flex;
+	justify-content: space-around;
+	color: white;
 
-}
-.foto2 p{
-	font-size: 30px;
-}
-.foto2 span{
-    color: #2ea662;
 }
 .foto2 img{
-    border-radius: 50%;
-    border-bottom: 20%;
-    width: 150px;
-    height: 150px;
-    align-content: center;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin-top: 30px;
+	margin-left:120px; 
+	
+	
 }
-
-.skills{
-    text-align: center;
-	margin-bottom: 200px;
-
-
-}
-.skills progress{
-    background-color: #2ea662;
-    width: 300px;
-    
-}
-.skills p{
-    font-size: 20px;
-    text-align: left;
-    margin-right: 600px;
-    
-}
-.skills h1{
-    text-align: center;
-	font-size: 30px;
-	margin-right: 400px;
+.skills

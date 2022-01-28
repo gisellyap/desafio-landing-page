@@ -60,6 +60,7 @@ header{
 .part2 h2{
 	margin-bottom: 20px;
 	margin-top: 20px;
+	
 }
 .dados{
 	background-color:rgb(26, 29, 48);
@@ -74,8 +75,58 @@ header{
 	width: 80px;
 	height: 80px;
 	margin-top: 30px;
-	margin-left:120px; 
+	margin-left:150px; 
 	
 	
 }
-.skills
+.foto2 span{
+	color: #2ea662;
+}
+.foto2 p{
+	font-size: 20px;
+}
+.skills{
+	margin-top:30px; 
+	margin-bottom: 30px;
+}
+.skills h1{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.skills progress{
+	color:#2ea662; 
+}
+.skills p{
+	font-size: 20px;
+}
+
+/* TERCEIRA PARTE*/
+
+
+.portifolio{
+	color: white;
+	background: rgb(26, 29, 48);
+	text-align: center;
+}
+.portifolio h1{
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.portifolio ul{
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.portifolio ul li{
+	margin-right: 5px;
+	padding: 10px;
+}
+.portifolio ul li a{
+	text-decoration: none;
+	color: white;
+}
+.portifolio ul li a:hover{
+	color: #2ea662;
+}

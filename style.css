@@ -60,10 +60,14 @@ header{
 .part2 h2{
 	margin-bottom: 20px;
 	margin-top: 20px;
-	
+	font-size: 32px;
+
+}
+.part2 p{
+	font-size: 27px;
 }
 .dados{
-	background-color:rgb(26, 29, 48);
+	background-color:rgb(34, 34, 51);
 	margin: 50px;
 	display: flex;
 	justify-content: space-around;
@@ -83,7 +87,7 @@ header{
 	color: #2ea662;
 }
 .foto2 p{
-	font-size: 20px;
+	font-size: 27px;
 }
 .skills{
 	margin-top:30px; 
@@ -96,6 +100,8 @@ header{
 }
 .skills progress{
 	color:#2ea662; 
+	margin: 5px;
+	width: 350px;
 }
 .skills p{
 	font-size: 20px;
@@ -106,12 +112,13 @@ header{
 
 .portifolio{
 	color: white;
-	background: rgb(26, 29, 48);
+	background: rgb(34, 34, 51);
 	text-align: center;
 }
 .portifolio h1{
 	margin-bottom: 20px;
 	padding: 20px;
+	font-size: 32px;
 }
 .portifolio ul{
 	list-style:none;
@@ -129,4 +136,15 @@ header{
 }
 .portifolio ul li a:hover{
 	color: #2ea662;
+}
+.card{
+	margin: 70px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 15px;
+}
+.card img{
+	width: 300px;
+	height: 290px ;
+	margin-bottom: 30px;
 }

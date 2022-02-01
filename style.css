@@ -79,7 +79,7 @@ header{
 	width: 80px;
 	height: 80px;
 	margin-top: 30px;
-	margin-left:150px; 
+	margin-left:250px; 
 	
 	
 }
@@ -113,12 +113,12 @@ header{
 .portifolio{
 	color: white;
 	background: rgb(34, 34, 51);
-	text-align: center;
 }
 .portifolio h1{
 	margin-bottom: 20px;
 	padding: 20px;
 	font-size: 32px;
+	text-align: center;
 }
 .portifolio ul{
 	list-style:none;
@@ -142,9 +142,50 @@ header{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 15px;
+	margin-left: 180px;
 }
 .card img{
 	width: 300px;
 	height: 290px ;
 	margin-bottom: 30px;
+}
+
+/* QUARTA PARTE*/
+.services{
+	margin-left:15px; 
+	margin-right: 15px;
+	margin-bottom: 20px;
+
+}
+
+.services h1{
+	color: white;
+	text-align: center;
+}
+.icons{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	
+}
+.servs{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	margin-bottom: 8px;
+}
+.parag{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+}
+
+/*QUINTA PARTE*/
+
+.plays{
+	color: white;
+	background: rgb(34, 34, 51);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }

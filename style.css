@@ -186,6 +186,12 @@ header{
 .plays{
 	color: white;
 	background: rgb(34, 34, 51);
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+}
+.top1{
+	display: flex;
+	justify-content: space-around;
+}
+.top2{
+	display: flex;
+	justify-content: space-around;
 }

@@ -18,6 +18,7 @@
                 <li><a href="/">Services</a></li>
                 <li><a href="/">Blog</a></li>
                 <li><a href="/">Contact</a></li>
+				
             </ul>
         </div>
     </header>   
@@ -53,23 +54,39 @@
                 </div>
 
                 <div class="skills">
-                    <h1>SKILLS</h1>
+                    <h2>SKILLS</h2>
 
                     <p>HTML5 & CSS3</p>
-                    <progress value="70" max="100"></progress>
+                   		<div class="barra">
+							<div class="cor1">
+								<p class="porcent-centro">70%</p>
+							</div>
+						</div>
                     <p>PHP</p>
-                    <progress value="50" max="100"></progress>
+                    	<div class="barra">
+							<div class="cor2">
+								<p class="porcent-centro">90%</p>
+							</div>
+						</div>
                     <p>JAVASCIPT</p>
-                    <progress value="20" max="100"></progress>
+                    	<div class="barra">
+							<div class="cor3">
+								<p class="porcent-centro">80%</p>
+							</div>
+						</div>
                     <p>WORDPRESS</p>
-                    <progress value="60" max="100"></progress>
+                    	<div class="barra">
+							<div class="cor4">
+								<p class="porcent-centro">60%</p>
+							</div>
+						</div>
                 </div>
             
         </section>
 
 		<section class="portifolio">
 				<div>
-					<h1>PORTIFOLIO</h1>
+					<h2>PORTIFOLIO</h2>
 				</div>
 			<nav class="all">
 					<ul>
@@ -97,7 +114,7 @@
 
 		<section class="services">
 			<div>
-				<h1>SERVICES</h1>
+				<h2>SERVICES</h2>
 			</div>
 
 			<div>
@@ -148,20 +165,35 @@
 
 		<section class="blog">
 			<div>
-				<h1>BLOG</h1>
+				<h2>BLOG</h2>
 			</div>
 
 			<div class="blogimg">
-				<img src="blog.png" alt="imagemblog">
-				<img src="blog.png" alt="imagemblog">
-				<img src="blog.png" alt="imagemblog">	
+
+				<ul>
+					<li>
+						<img src="blog.png" alt="imagemblog">
+						<h3>Designing Your Own website</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe doloremque beatae quaerat molestias alias, possimus eum, deleniti corrupti enim magni harum nam dignissimos ipsam consectetur? Enim animi natus delectus obcaecati?</p>
+					</li>
+					<li>
+						<img src="blog.png" alt="imagemblog">
+						<h3>Recomended Designer Books </h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates possimus eum soluta molestias est qui, excepturi numquam aut dolorem provident repellat, iure necessitatibus mollitia molestiae, doloremque minus delectus vero animi.</p>
+					</li>
+					<li>
+						<img src="blog.png" alt="imagemblog">
+						<h3>Eyealash Extensions With artist</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga corporis rem accusantium, maxime eum repellendus debitis repudiandae iure impedit quasi sunt suscipit? Eum ea alias amet tenetur minus! Eum, sint!</p>
+					</li
+				</ul>	
 			</div>
 		</section>
 
 
 		<main class="final">
 			<div>
-				<h1>contact</h1>
+				<h2>CONTACT</h2>
 			</div>
 			<div class="contatos">
 				<ul>
@@ -184,15 +216,39 @@
 			</div>
 
 
-			<div>
-				<form>
-				<label for="nomesobrenome">Nome</label>
-				<textarea name="nomesobrenome" id="" cols="70" rows="5"></textarea>
-				<input type="submit" value="Enviar">				
+			<div class="caixas">
+				<form class="formulario">
+					
+					<input class="caixamenor" type="text" id="nomesobrenome" required placeholder="Nome">
+
+					
+					<input class="caixamenor"  type="email" id="email" required placeholder="Email">
+
+					
+					<input class="caixamenor" type="tel" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+
+					
+					<input class="caixamaior" name="" id="comentário" placeholder=" coment">
+
+					<input class="envio" type="submit" value="Enviar">
+
 				</form>
 			</div>
 		</main>
-		
+
+
+		<footer>
+			<div class="rodape">
+				<p>COPYRIGHT&COPY;2017. ALL RIGHT RESERVED</p>
+				<p>www.DownloadNewThemes.com</p>
+				<div>
+				 <img src="icon1.png" alt="facebook"> 
+				 <img src="icon2.png" alt="twitter"> 
+				 <img src="icon3.png" alt="instagram"> 
+				</div> 
+			</div>
+		</footer>
+
 
 
     

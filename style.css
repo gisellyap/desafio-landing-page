@@ -31,7 +31,6 @@ header{
 	color: white;
 	padding: 20px 10px 20px 10px;
 	display: flex;
-	position: relative;
     width: 940px;
     margin: 0 auto;
 }
@@ -41,7 +40,6 @@ header{
 }
 .home h1{
 	text-align: center;
-	font-size: 50px;
 	margin-top: 200px;
 }
 .home p{
@@ -65,7 +63,6 @@ header{
 .part2 h2{
 	margin-bottom: 20px;
 	margin-top: 20px;
-	font-size: 32px;
 
 }
 .part2 p{
@@ -74,14 +71,16 @@ header{
 .dados{
 	background-color:rgb(34, 34, 51);
 	display: flex;
-	justify-content: space-around;
 	color: white;
 	position: relative;
-    width: 1100px;
+    width: 940px;
     margin: 0 auto;
 	margin-top: 30px;
     margin-bottom: 30px;
 	
+}
+.foto2{
+	margin-left: 100px;
 }
 .foto2 img{
 	border-radius: 50%;
@@ -102,21 +101,36 @@ header{
 .skills{
 	margin-top:30px; 
 	margin-bottom: 30px;
+	margin-left: 100px;
 }
-.skills h1{
-	text-align: center;
+.skills h2{
 	margin-bottom: 10px;
-	font-size: 30px;
 }
-.skills progress{
-	color:#2ea662; 
-	margin: 5px;
-	width: 350px;
+.barra{
+	background: #1a1a26; 
+	max-width: 100%;
+	width: 250px;
+	
 }
-.skills p{
-	font-size: 16px;
+.porcent-centro{
+	text-align: center;
 }
-
+.cor1{
+	max-width: 70%;
+	background: #2ea662;
+}
+.cor2{
+	max-width: 90%;
+	background: #2ea662;
+}
+.cor3{
+	max-width: 80%;
+	background: #2ea662;
+}
+.cor4{
+	max-width: 60%;
+	background: #2ea662;
+}
 /* TERCEIRA PARTE*/
 
 
@@ -124,10 +138,9 @@ header{
 	color: white;
 	background: rgb(34, 34, 51);
 }
-.portifolio h1{
+.portifolio h2{
 	margin-bottom: 20px;
 	padding: 20px;
-	font-size: 32px;
 	text-align: center;
 }
 .portifolio ul{
@@ -153,7 +166,7 @@ header{
     margin: 0 auto;	
 }
 .card img{
-	width: 300px;
+	width: 290px;
 	height: 290px ;
 	margin: 5px;
 	margin-bottom: 10px;
@@ -166,8 +179,7 @@ header{
 	
 }
 
-.services h1{
-	font-size: 32px;
+.services h2{
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -217,19 +229,27 @@ header{
 	color: white;
 	padding-top: 30px;
 }
-.blog div h1{
-	font-size: 32px;
+.blog div h2{
 	text-align: center;
 	margin-bottom: 20px;
 }
 .blogimg{
-	position: relative;
     width: 940px;
     margin: 0 auto;	
 }
+.blogimg li{
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-right: 10px;
+	width:30% ;
+	
+}
+.blogimg p{
+	margin-top: 10px;
+}
 .blogimg img{
-	width: 300px;
-	height: 290px ;
+	width: 280px;
+	height: 280px ;
 	margin: 5px;
 	margin-bottom: 10px;
 }
@@ -239,10 +259,10 @@ header{
 .final{
 	background-color:rgb(34, 34, 51);
 	color: white;
+	
 }
-.final h1{
+.final h2{
 	text-align: center;
-	font-size: 32px;
 	margin-bottom: 30px;
 }
 .contatos{
@@ -259,3 +279,40 @@ header{
 .contatos img{
 	width: 30px;
 	height: 30px;
+}
+.caixas{
+	width: 940px;
+	margin: 0 auto;
+}
+.caixamenor{
+	width:250px ;
+	background-color: #1a1a26;
+	
+}
+.caixamaior{
+	display: block;
+	width: 840px;
+	height: 50px;
+	background-color: #1a1a26;
+}
+.formulario input{
+	margin: 10px;
+	padding: 10px;
+}
+.envio{
+	background-color:#2ea662;
+	color: white;
+}
+/*ULTIMA PARTE*/
+
+footer{
+	width: 940px;
+	margin: 0 auto;
+	color: white;
+	
+}
+.rodape{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
